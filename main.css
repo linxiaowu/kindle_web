@@ -1,5 +1,36 @@
-#main-content {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 16px;
-}
+body {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  .page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .time_container,
+  .date_container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .time_container {
+    top: 0;
+    height: 55%;
+  }
+
+  .date_container {
+
+  }
+
+  .time {
+    padding-top: 120px;
+    font-size: 16rem;
+  }
+
+  .date {
+    padding-top: 40px;
+    font-size: 6rem;
+  }
